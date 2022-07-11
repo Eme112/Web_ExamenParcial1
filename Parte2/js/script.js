@@ -85,13 +85,11 @@ B) Crea 2 objectos  con diferentes valores. Para los despistados, existen 18 esp
 
 */
 
-class Pokemon {
-  constructor(nombre, especie, ataque, defensa) {
-    this.nombre = nombre
-    this.especie = especie
-    this.ataque = ataque
-    this.defensa = defensa
-  }
+function Pokemon(nombre, especie, ataque, defensa) {
+  this.nombre = nombre
+  this.especie = especie
+  this.ataque = ataque
+  this.defensa = defensa
 }
 
 let pokemon1 = new Pokemon("Wilson", "Dragón", 115, 110)
